@@ -1,0 +1,130 @@
+
+
+body
+{
+  margin: 0;
+  padding: 0;
+  border: 0;
+
+}
+
+img
+{
+  max-width: 100%;
+  text-decoration:none;
+
+
+}
+h1
+{
+  margin: 0;
+}
+h2
+{
+  margin: 0;
+}
+
+/* ---- Reusable CSS ---- */
+
+.flex-container {
+  display: flex;
+}
+
+
+/* ---- Wrapper ---- */
+
+.wrapper {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* ---- Title ---- */
+.title{
+  background-color: #EFF1F4;
+}
+.title h1 {
+  font-family: sans-serif,serif;
+  font-size: 3.5em;
+  color: Black;
+  text-align: center;
+}
+.title h2 {
+  font-family: sans-serif,serif;
+  font-size: 2.5em;
+  color: Black;
+  text-align: center;
+}
+
+.title img{
+  border-radius: 50%;
+  display: block;
+    margin: 0 auto;
+    width: 15.0em;
+}
+
+/* ---- Banner ---- */
+
+.banner {
+  background: url(../res/notmine.jpg) no-repeat center center fixed;
+
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+
+.Bimages
+{
+  display: block;
+font-size: 0;
+margin: 0;
+max-width: 100%;
+text-align: center;
+display: flex;
+flex-flow: row wrap;
+align-items: stretch;
+}
+
+figure {
+  display: block;
+  margin: 0 auto 20px auto;
+  vertical-align: top;
+}
+
+.landscape {
+  max-width: 15%;
+}
+
+.portrait {
+  max-width: 15%;
+}
+/* ---My Info --- */
+
+
+.mainText
+{
+  background-color: #EFF1F4;
+  text-align: center;
+
+}
+.about-me
+{
+}
+.about-me h1
+{
+  font-family: sans-serif,serif;
+  font-size: 2.5em;
+  color: Black;
+  text-align: center;
+}
+.about-me p{
+
+
+}
